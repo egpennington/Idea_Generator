@@ -249,7 +249,15 @@ p {
      font-size: 1rem;
    }
    
-   .about-vid {
-     
+   #header .primary-hl,
+   #header h1 {
+     font-size: 2rem;
+    }
+   #header .hi-light {
+     width: 500px;
    }
-}
+   
+   .container p {
+     width: 400px;
+   }
+  }
