@@ -82,37 +82,20 @@ p {
    position: relative;
  }
  
- .generator .describe {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-   position: absolute;
- }
- 
- .generator .describe h3 {
+ .generator h3 {
    font-size: 1.5rem;
- }
- 
- .generator .describe a {
-   margin-left: 150px;
  }
  
  .generator #gameDisplay {
    background: #f4f4f4;
    padding: 20px;
-   margin: 50px 0 20px 0;
+   margin: 10px 0 20px 0;
    width: 500px;
    height: 100px;
    opacity: 0.8;
    
  }
  
- /* Footer */
- footer {
-   text-align: center;
- }
-
 /* =========About Section======= */
 
 .about-container {
@@ -181,8 +164,12 @@ p {
   color: #a875e2;
 }
 
-  
-  
+ /* Footer */
+ footer {
+   text-align: center;
+   bottom: 0;
+ }
+ 
  /* =========Utilities========== */
  .primary-hl {
    color: #a875e2;
@@ -228,6 +215,7 @@ p {
   background: rgba(168, 117, 226, 0.75);
   color: #fff;
 }
+
 
 /* Media querries */
  @media(max-width: 1000px) {
