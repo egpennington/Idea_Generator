@@ -229,7 +229,27 @@ p {
   color: #fff;
 }
 
-
-  
- 
- 
+/* Media querries */
+ @media(max-width: 1000px) {
+   .navbar ul li {
+     display: flex;
+     flex-direction: column;
+   }
+   
+   .navbar {
+     height: 110px;
+   }
+   
+   .about-container h1 {
+     font-size: 2rem;
+   }
+   
+   .about-container p {
+     width: 400px;
+     font-size: 1rem;
+   }
+   
+   .about-vid {
+     
+   }
+}
