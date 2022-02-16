@@ -201,6 +201,10 @@ p {
  .primary-hl {
    color: #a875e2;
  }
+
+.secondary-hl {
+  color: #ffff00;
+}
  
  .btn:hover {
    border-bottom: 2px solid #a875e2; 
