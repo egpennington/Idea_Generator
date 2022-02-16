@@ -93,11 +93,9 @@ p {
    width: 500px;
    height: 100px;
    opacity: 0.8;
-   
  }
  
 /* =========About Section======= */
-
 .about-container {
   display: flex;
   flex-direction: column;
@@ -135,30 +133,59 @@ p {
 /* Games Container */
 
 .games_container {
-  height: 100%;
-  padding-top: 30%;
-}
-
-.group1 {
   display: flex;
-  flex-direction: columns;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  background: url("https://images.pexels.com/photos/4439919/pexels-photo-4439919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center center/cover;
+/*  border: 1px solid #f4f4f4; */
 }
 
-.group1 ul {
+.games_container .group_head {
+  text-align: center;
+  border: 5px solid #333;
+  padding: 5px;
+  margin-bottom: 0;
+}
+
+.games_container .group1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.8;
+  height: 100%;
+  border: 2px yellow solid;
+}
+
+.games_container .group2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.8;
+  height: 100%;
+  border: 2px yellow solid;
+}
+
+.games_container .group1 ul,
+.games_container .group2 ul {
   list-style-type: none;
 }
 
-.group1 ul a {
+.games_container .group1 ul a,
+.games_container .group2 ul a {
   text-decoration: none;
   color: #333;
   font-weight: 700;
-  border: 1px #f4f4f4 dotted;
-  padding: 5px;
+  border-bottom: 1px #f4f4f4 solid;
 }
 
-.group1 a:hover {
+.games_container .group1 a:hover,
+.games_container .group2 a:hover {
   border: 2px solid #a875e2;
   background: #fff;
   color: #a875e2;
